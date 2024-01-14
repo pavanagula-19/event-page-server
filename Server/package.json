@@ -1,0 +1,36 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "body-parser": "^1.20.2",
+    "cloudinary": "^1.36.1",
+    "connect-multiparty": "^2.2.0",
+    "cors": "^2.8.5",
+    "create-object-url": "^1.0.2",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "filereader": "^0.10.3",
+    "FileReader": "^0.10.2",
+    "joi": "^17.9.1",
+    "jsonwebtoken": "^9.0.0",
+    "moment": "^2.29.4",
+    "mongodb": "^5.3.0",
+    "mongoose": "^7.0.4",
+    "multer": "^1.4.4",
+    "multer-gridfs-storage": "^5.0.2",
+    "nodemon": "^2.0.22",
+    "revoke-object-url": "^1.0.2",
+    "stripe": "^12.1.1",
+    "multer-storage-cloudinary": "^4.0.0"
+  }
+}
